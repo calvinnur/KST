@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Search Input</name>
+   <tag></tag>
+   <elementGuidId>adda3b5f-4910-4729-a974-7623907aade1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@type='search']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>label.note-search</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>faea24f7-b16b-4d6a-a153-63acdd017094</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>note-search</value>
+      <webElementGuid>12cabddc-08eb-44f0-8512-bd3593a84bac</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Type and Press Enter to Search</value>
+      <webElementGuid>3d9c9792-19e0-4025-89b6-88b031b596cb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;noo-site&quot;)/header[@class=&quot;noo-header fixed_top header-3 header-eff eff&quot;]/div[@class=&quot;search-header search-header-eff&quot;]/div[@class=&quot;noo-container&quot;]/form[@class=&quot;form-horizontal noo-mebla-searchform&quot;]/label[@class=&quot;note-search&quot;]</value>
+      <webElementGuid>cffbb8c9-7bca-46ca-a591-6719ac8805d9</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='noo-site']/header/div[3]/div[2]/form/label</value>
+      <webElementGuid>24863d31-0b51-4618-9136-27dc1949375a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Go to the shop'])[1]/following::label[1]</value>
+      <webElementGuid>97a29abf-511f-4d05-8d44-54d090f94000</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Your shopping bag is empty.'])[1]/following::label[1]</value>
+      <webElementGuid>1c7f4769-bf7b-4f30-b527-c2d9825b8f69</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Spring - summer lookbook'])[1]/preceding::label[1]</value>
+      <webElementGuid>b87db4ad-7cc7-447e-a8eb-181f490aeb0c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Type and Press Enter to Search']/parent::*</value>
+      <webElementGuid>ada39488-e026-49cb-bd8f-1d4a1bd70d8c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//label</value>
+      <webElementGuid>b22e7217-60c3-4dcc-b842-2841b04e5bd2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = 'Type and Press Enter to Search' or . = 'Type and Press Enter to Search')]</value>
+      <webElementGuid>125e42f6-6bfb-450e-b37a-d2986f01caa2</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

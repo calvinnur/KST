@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Cart Icon</name>
+   <tag></tag>
+   <elementGuidId>24f0da4b-3548-414f-9e95-4a9a9f3a61af</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.cart-name-and-total</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[@class='cart-name-and-total']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>4a31f651-0ee1-4eed-ae79-5809aa04559d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>cart-name-and-total</value>
+      <webElementGuid>feae22c5-9430-40a3-a832-474476a589a2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Cart(1)₹22.00</value>
+      <webElementGuid>fe414ed3-58fc-4d19-a8c0-0ff0d3ad35f9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;nav-menu-item-cart&quot;)/a[@class=&quot;cart-button&quot;]/span[@class=&quot;cart-item has-items&quot;]/span[@class=&quot;cart-name-and-total&quot;]</value>
+      <webElementGuid>8fdfb432-9bc1-405d-be29-547841a520f1</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//li[@id='nav-menu-item-cart']/a/span/span[2]</value>
+      <webElementGuid>6543a2d5-2593-4d09-a0b1-73cb64f53d53</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Checkout'])[1]/following::span[3]</value>
+      <webElementGuid>189759f2-e66a-4d98-bbae-4e5901d012a7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='My Account'])[1]/following::span[3]</value>
+      <webElementGuid>347a13fc-f43b-4014-9e7f-2a04fdef4bcc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='playboy x missguided p...'])[1]/preceding::span[3]</value>
+      <webElementGuid>2c55ea97-1f43-490c-8d5c-30c47c523127</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Cart(1)']/parent::*</value>
+      <webElementGuid>045f4ed2-3cf3-4b09-b409-da8cd79cc7dc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span[@class='cart-name-and-total']</value>
+      <webElementGuid>5c4e1cd4-7626-4ad1-80db-3df0eb552386</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Cart(1)₹22.00' or . = 'Cart(1)₹22.00')]</value>
+      <webElementGuid>bbe9398b-0660-4046-b868-0e5f958ef2ee</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
