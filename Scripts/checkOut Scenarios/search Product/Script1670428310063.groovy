@@ -36,13 +36,27 @@ if (!(shopUrl.contains('shop'))) {
 
 WebDriver driver = DriverFactory.getWebDriver()
 
-WebUI.callTestCase(findTestCase('checkOut Scenarios/Function/add Product 1'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('checkOut Scenarios/Functions/add Product 1'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('checkOut Scenarios/Function/check 1 Product'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('checkOut Scenarios/Functions/check 1 Product'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('checkOut Scenarios/Function/fill Billing Details'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('checkOut Scenarios/Functions/fill Billing Details'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.waitForElementPresent(findTestObject('Page Checkout/Title Success'), GlobalVariable.setTimeOut)
+
+WebUI.verifyElementPresent(findTestObject('Page Checkout/Title Success'), GlobalVariable.setTimeOut, FailureHandling.OPTIONAL)
+
+String titleSuccess = WebUI.getText(findTestObject('Page Checkout/Title Success'))
+
+String expectTitle = "Thank you. Your order has been received."
+
+if(!WebUI.verifyMatch(expectTitle, titleSuccess, true))
+{
+	KeywordUtil.markFailed("failed")
+}
 
 
-String orderNumber = driver.findElement(By.xpath("//li[@class='order']/strong")).getText()
+String orderNumber = driver.findElement(By.xpath('//li[@class=\'order\']/strong')).getText()
 
 KeywordUtil.logInfo(orderNumber)
+

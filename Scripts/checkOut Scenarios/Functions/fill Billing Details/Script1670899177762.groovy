@@ -120,6 +120,8 @@ WebUI.check(findTestObject('Page Checkout/Checkbox Privacy Policy'))
 
 WebUI.verifyElementChecked(findTestObject('Page Checkout/Checkbox Privacy Policy'), GlobalVariable.setTimeOut, FailureHandling.OPTIONAL)
 
+WebUI.takeFullPageScreenshot()
+
 WebUI.click(findTestObject('Page Checkout/Button Place Order'), FailureHandling.OPTIONAL)
 
 WebUI.delay(GlobalVariable.setTimeOut)

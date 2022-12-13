@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Remove Button</name>
+   <tag></tag>
+   <elementGuidId>fc55a076-fb01-423d-8584-a068c6943e51</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>a</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//table[@id='DataTables_Table_0']/tbody/tr/td/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>8d0f6e9d-5fce-4e33-837e-f0def81bf115</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>
+						https://shop.demoqa.com?action=yith-woocompare-remove-product&amp;id=1491&amp;redirect=view						</value>
+      <webElementGuid>c09868ab-9c92-4448-a55f-b89c575cf6f9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-product_id</name>
+      <type>Main</type>
+      <value>1491</value>
+      <webElementGuid>c3d30f9c-86a9-4013-b7a6-4d522c84a8de</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>target</name>
+      <type>Main</type>
+      <value>_parent</value>
+      <webElementGuid>b12fd854-12ea-4795-9611-a31e65216a73</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Remove							x</value>
+      <webElementGuid>07596ad9-fd15-406a-a574-3724d8b3d231</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;DataTables_Table_0&quot;)/tbody[1]/tr[@class=&quot;remove odd&quot;]/td[@class=&quot;odd product_1491&quot;]/a[1]</value>
+      <webElementGuid>790fc67e-9c5e-489b-b9b5-0a212bebc6bb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/Modal Compare/iframe Compare Products</value>
+      <webElementGuid>d6cf628e-0cfe-485b-94fd-1af84109aee4</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='DataTables_Table_0']/tbody/tr/td/a</value>
+      <webElementGuid>4d98f115-41e3-4b90-aee9-dee868662111</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Compare products'])[1]/following::a[1]</value>
+      <webElementGuid>c84cd86c-01b8-43ac-8852-1e09fb2f9d62</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Remove']/parent::*</value>
+      <webElementGuid>4f835106-5cd8-4d2b-af03-8a98e4bcc964</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '
+						https://shop.demoqa.com?action=yith-woocompare-remove-product&amp;id=1491&amp;redirect=view						')]</value>
+      <webElementGuid>99eeb534-1f81-4050-b98a-1fdd0f69cc3e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a</value>
+      <webElementGuid>5014b5b4-daa8-4ad1-9437-3f95bc527171</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '
+						https://shop.demoqa.com?action=yith-woocompare-remove-product&amp;id=1491&amp;redirect=view						' and (text() = 'Remove							x' or . = 'Remove							x')]</value>
+      <webElementGuid>21a7d856-5653-42e7-b3c6-1287ea12cb61</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

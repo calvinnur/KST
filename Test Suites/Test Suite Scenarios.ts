@@ -19,10 +19,10 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>205304ad-ca77-4b42-afa0-5e190892aa04</guid>
+      <guid>c3bb8286-1dfe-4468-8d76-643f274dd4d1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/checkOut Scenarios/compare 2 products</testCaseId>
+      <testCaseId>Test Cases/checkOut Scenarios/compare products</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

@@ -20,44 +20,8 @@ import org.openqa.selenium.Keys as Keys
 import org.openqa.selenium.By as By
 import org.openqa.selenium.WebDriver as WebDriver
 import org.openqa.selenium.WebElement as WebElement
+import com.kms.katalon.core.webui.common.WebUiCommonHelper as WebUiCommonHelper
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
-
-WebUI.callTestCase(findTestCase('checkOut Scenarios/Function/add Product 1'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.navigateToUrl(GlobalVariable.BaseUrl)
-
-String checkUrl = WebUI.getUrl()
-
-if (!(checkUrl.contains('shop'))) {
-    KeywordUtil.markFailed('failed')
-}
-
-
-WebUI.scrollToElement(findTestObject('Page Home Shop/Product Title'), GlobalVariable.setTimeOut)
-
-WebDriver driver = DriverFactory.getWebDriver()
-
-List<WebElement> cards = driver.findElements(By.xpath('//div[contains(@class,\'taxable\')]'))
-
-String text = cards.get(2).getText()
-
-String[] splitText = text.split('₹')
-
-String productName = splitText[0]
-
-println(productName)
-
-WebUI.waitForElementPresent(findTestObject('Page Home Shop/Search Icon'), GlobalVariable.setTimeOut)
-
-WebUI.verifyElementPresent(findTestObject('Page Home Shop/Search Icon'), GlobalVariable.setTimeOut, FailureHandling.OPTIONAL)
-
-WebUI.click(findTestObject('Page Home Shop/Search Icon'), FailureHandling.OPTIONAL)
-
-WebUI.waitForElementPresent(findTestObject('Page Home Shop/Search Input'), GlobalVariable.setTimeOut)
-
-WebUI.verifyElementPresent(findTestObject('Page Home Shop/Search Input'), GlobalVariable.setTimeOut, FailureHandling.OPTIONAL)
-
-WebUI.sendKeys(findTestObject('Page Home Shop/Search Input'), productName)
 
 String productUrl = WebUI.getUrl()
 
@@ -85,9 +49,11 @@ WebUI.verifyElementPresent(findTestObject('Page Product/Input Quantity'), Global
 
 String value = WebUI.getAttribute(findTestObject('Page Product/Input Quantity'), 'value')
 
-if (value < 2) {
+if (value < 1) {
 	KeywordUtil.markFailed('failed')
 }
+
+WebDriver driver = DriverFactory.getWebDriver()
 
 WebElement selectColor = driver.findElement(By.xpath('//select[@id=\'pa_color\']'))
 
@@ -106,5 +72,3 @@ WebUI.waitForElementPresent(findTestObject('Page Product/Button Add To Cart'), G
 WebUI.verifyElementPresent(findTestObject('Page Product/Button Add To Cart'), GlobalVariable.setTimeOut, FailureHandling.OPTIONAL)
 
 WebUI.click(findTestObject('Page Product/Button Add To Cart'), FailureHandling.OPTIONAL)
-
-

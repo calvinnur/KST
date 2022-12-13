@@ -20,6 +20,7 @@ import org.openqa.selenium.Keys as Keys
 import org.openqa.selenium.By as By
 import org.openqa.selenium.WebDriver as WebDriver
 import org.openqa.selenium.WebElement as WebElement
+import com.kms.katalon.core.webui.common.WebUiCommonHelper as WebUiCommonHelper
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 
 WebUI.openBrowser('')
@@ -34,14 +35,30 @@ if (!(shopUrl.contains('shop'))) {
     KeywordUtil.markFailed('failed')
 }
 
-WebDriver driver = DriverFactory.getWebDriver()
+WebUI.callTestCase(findTestCase('checkOut Scenarios/Functions/add with compare'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('checkOut Scenarios/Functions/add 2 products'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('checkOut Scenarios/Functions/add another compare'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('checkOut Scenarios/Functions/check 2 products'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('checkOut Scenarios/Functions/fill Billing Details'), [:], FailureHandling.STOP_ON_FAILURE)
 
-String orderNumber = driver.findElement(By.xpath("//li[@class='order']/strong")).getText()
+WebUI.waitForElementPresent(findTestObject('Page Checkout/Title Success'), GlobalVariable.setTimeOut)
+
+WebUI.verifyElementPresent(findTestObject('Page Checkout/Title Success'), GlobalVariable.setTimeOut, FailureHandling.OPTIONAL)
+
+WebDriver driver = DriverFactory.getWebDriver()
+
+String titleSuccess = WebUI.getText(findTestObject('Page Checkout/Title Success'))
+
+String expectTitle = "Thank you. Your order has been received."
+
+if(!WebUI.verifyMatch(expectTitle, titleSuccess, true))
+{
+	KeywordUtil.markFailed("failed")
+}
+
+
+String orderNumber = driver.findElement(By.xpath('//li[@class=\'order\']/strong')).getText()
 
 KeywordUtil.logInfo(orderNumber)

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Row Compare Products</name>
+   <tag></tag>
+   <elementGuidId>314f9324-6b65-4971-a999-9c7ae76f75ae</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;DataTables_Table_1&quot;)/tbody[1]/tr[@class=&quot;remove odd&quot;][count(. | //*[@ref_element = 'Object Repository/Modal Compare/iframe Compare Products']) = count(//*[@ref_element = 'Object Repository/Modal Compare/iframe Compare Products'])]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.image-wrap</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//table[@id='DataTables_Table_0']/tbody/tr</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>2932f334-8ebb-48dc-9daf-2b5b49a803c8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>image-wrap</value>
+      <webElementGuid>4d3e89e9-8706-4bd3-9a19-3fbf11dd6aaf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;DataTables_Table_1&quot;)/tbody[1]/tr[@class=&quot;remove odd&quot;]</value>
+      <webElementGuid>6f709b36-7601-434a-860f-4fbac6298224</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/Modal Compare/iframe Compare Products</value>
+      <webElementGuid>dbac244e-81ca-4557-9d27-d69f3fe31925</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='DataTables_Table_0']/tbody/tr</value>
+      <webElementGuid>0593fd67-a097-43ce-8001-ea1fdab4c42d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='x'])[3]/following::div[1]</value>
+      <webElementGuid>e8c26dea-7190-43ae-b0f5-ff1c91b5abf9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Title'])[1]/preceding::div[3]</value>
+      <webElementGuid>a85036ac-1c85-4f21-986e-a1b511964320</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='playboy x missguided plus size grey lips print front cropped t shirt'])[1]/preceding::div[3]</value>
+      <webElementGuid>4bc2a1dc-82aa-4f23-866d-b4211e804cdb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//table[@id='DataTables_Table_0']/tbody/tr</value>
+      <webElementGuid>13d7e8f5-014a-4900-b3f9-8db3750b177c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
